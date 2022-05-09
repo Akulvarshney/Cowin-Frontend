@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar1{
+    background-color: #1e3770;
+    height: 50px;
+}
+
+.navbar2{
+    height: 100px;
+}
+
+#emblem{
+display: flex;
+}
+
+.emblem{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.content{
+    color: white;
+    display: block;
+    line-height: 3px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.navbar1 ul{
+    position: absolute;
+    right: 5%;
+    
+}
+
+.navbar1 ul a{
+    color: white;
+    font-weight: lighter;
+}
+
+.navbar1 ul .dropdown-menu a{
+    color: black;
+    font-weight: lighter;
+}
+
+.navbar2{
+    height: 70px;
+}
+
+.navbar2 ul .nav-item{
+    font-size: 15px;
+}
+
+.navbar2 ul{
+    position: absolute;
+    right: 1%;
+}
+
+.navbar2 ul li{
+    margin-right: 25px;
+    margin-top: auto;
+}
+
+.navbar2 ul a{
+    font-weight: lighter;
+}
+
+.navbar2 .logo{
+    height: 5px;
+}
+
+.navbar2 img{
+    height: 60px;
+}
+
+.navbar2 .nav-link{
+    font-weight: bold;
+    color: #1e3770 !important;
+}
+
+.navbar2 .register{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+    background-color: #ffc002;
+    margin-right: 0%;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+}
+
+.message-1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.message-1 h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.message-1 p{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.message-1 button{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+    background-color: #1e3770;
+    margin-right: 0%;
+    color: white;;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+}
+
+
+.banner{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    /* padding: 30px 30px ;     */
+}
+
+.banner1{
+    background-color: #ffd967;
+    height: 350px;
+}
+
+.book_slot .line1, .book_slot .line2{
+    font-size: 50px;
+    color: #1e3770;
+    font-weight: 350;
+}
+
+.book_slot .hindi1{
+    margin-top: 30px;
+    color: #1e3770;
+}
+
+.book_slot .button1 button{
+    margin-top: 40px;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;   
+    background-color: #ffc002;
+    margin-right: 0%;
+    color: white;;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+}
+
+.book_slot .button1 button p {
+    font-size: large;
+    line-height: 2px;
+    color: #1e3770;
+}
+
+.book_slot .button1 button .english{
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.book_slot .button1 button .hindi{
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.book_slot .button2 button{
+    margin-top: 40px;
+    border-color: #1e3770;
+    border-width: 1px;
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;  
+    background-color: white;
+    margin-right: 0%;
+    color: white;;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+}
+
+.book_slot .button2 button p {
+    font-size: large;
+    line-height: 2px;
+    color: #1e3770;
+}
+
+.book_slot .button2 button .english{
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.book_slot .button2 button .hindi{
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.hn{
+    background-color: #f7fcff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.numbers{
+    
+    justify-content: space-between;
+    
+}
+
+.helpline{
+    display: flex;
+}
+
+.helpline p { 
+    margin-right: 10px;
+}
+
+.number{
+    line-height: 5px;
+}
+
+.numbers .p2{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.numbers .p3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #0056b3 ;
+}
+
+.date input{
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-radius: 25px;
+    height: 35px;
+    width: 40%;
+    padding: 7px;
+}
+
+.date button{
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+    background-color: #1e3770;
+    color: white;;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+}
+
+.card{
+    border-width: 0ch;
+    border-style: none;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.card a{
+    font-size: 10px;
+}
+
+.card p{
+    font-size: small;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 650;
+    color: #1e3770;
+}
+
+.card-img-top{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.issues{
+    margin-bottom: 30px;
+}
+
+.issues p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.issues button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #002060;
+}
+
+.issues button:hover{
+    background-color: #007bff;
+}
+
+.contact .helpl{
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    color: #002060;
+}
+.contact .th{
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    color: #002060;
+}
+
+.num{
+    color: black;
+    font-weight: 500;
+}
+
+.issues h5{
+    color: #002060;
+}
+
+.contact h5{
+    color: #002060;
+}
+
+.contact{
+    margin-bottom: 30px
+}
+
+h2{
+    color: #002060;
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+}
+
+table{
+    border-radius: 100px;
+}
+
+td {
+    border: 1px solid rgba(83, 83, 83, 0.363);
+    height: 60px;
+    padding: 20px;
+    font-size: small;
+    
+    font-weight: 700;
+  }
+
+.heading-1{
+    background-color: #002060;
+    color: white;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 60px;
+    padding: 20px;
+    font-size: small;
+    font-weight: 700;
+  }
+
+table{
+    margin-bottom: 50px;
+}
+
+.freq{
+    margin-bottom: 150px ;
+}
+
+.faq{
+    padding: 7px 50px;
+    border-width: 0ch;
+    background-color: #002060;
+    color: white;
+    border-radius: 30px;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.last{
+    background-color: #1e3770;
+    color: white;
+    padding: 30px;
+    margin-left: 0%;
+}
+
+.last ul{
+    list-style: none;
+
+}
+
+.last ul li{
+    font-size: small;
+}
+
+.first{
+    padding: 0%;
+    font-size: smaller;
+}

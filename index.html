@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+			crossorigin="anonymous"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+			integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<title>CoWIN</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand navbar1">
+			<div id="emblem">
+				<img class="emblem" src="img/emblem-gov.svg" alt="" />
+				<div class="content">
+					<p class="ministry">Ministry of Health and</p>
+					<p class="family">Family Welfare</p>
+				</div>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Dashboard |</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							English
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Hindi</a>
+							<a class="dropdown-item" href="#">Marathi</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Punjabi</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<nav class="navbar navbar-expand-lg navbar2 navbar-light">
+			<img src="img/logo.png" alt="" />
+			<div class="navb">
+				<div id="special">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Vaccination Services
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Register Members</a>
+								<a class="dropdown-item" href="#">Search Vaccination Centers</a>
+								<a class="dropdown-item" href="#">Book Vaccination Slots</a>
+								<a class="dropdown-item" href="#">Manage Appointment</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Platforms
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">CoWIN International</a>
+								<a class="dropdown-item" href="#">Vaccinator</a>
+								<a class="dropdown-item" href="#">Departmental Login</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Resources
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">How To Get Vaccinated</a>
+								<a class="dropdown-item" href="#">Dos and Don'ts</a>
+								<a class="dropdown-item" href="#">Overview</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Support
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Frequently Asked Questions</a>
+								<a class="dropdown-item" href="#">Certificate Corrections</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">COntact us</a>
+							</div>
+						</li>
+						<li>
+							<button class="register">REGISTER/SIGN IN</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section>
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide"
+				data-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container-fluid">
+							<div class="banner1">
+								<div class="row">
+									<div class="message col-lg-6 col-12">
+										<div class="message-1">
+											<h4 class="heading">
+												CoWIN Is Helping Countries Worldwide To Run Vaccination
+												Drives.
+											</h4>
+											<p>
+												Launching CoWIN as an open source platflorm for
+												countries to orchestrate successful vaccination with
+												efficient monitoring with an aim of achieveing universal
+												Vaccination
+											</p>
+											<button>Know More</button>
+										</div>
+									</div>
+
+									<div class="flags my-auto col-lg-6 col-12 text-center">
+										<div class="fla">
+											<img class="" src="img/national-flags-image.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container-fluid">
+							<div class="banner">
+								<div class="row">
+									<div class="book_slot col-lg-8 col-md-12">
+										<h4 class="line1">Are You Protected</h4>
+										<h4 class="line2">Against COVID-19?</h4>
+										<p class="hindi1">क्या आप कोविड-19 से सुरक्षित हैं ?</p>
+										<div class="row">
+											<div
+												class="
+													clicks
+													button1
+													my-auto
+													text-center
+													col-lg-6 col-md-12
+												"
+											>
+												<button>
+													<p class="english">Book your slot</p>
+													<p class="hindi">अपना स्लॉट बुक करें</p>
+												</button>
+											</div>
+
+											<div
+												class="clicks button2 text-center col-lg-6 col-md-12"
+											>
+												<button>
+													<p class="english">Download Certificate</p>
+													<p class="hindi">प्रमाणपत्र डाउनलोड करें</p>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="modi text-center col-lg-4 col-md-12">
+										<img src="img/modi-home-banner.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a
+					class="carousel-control-prev"
+					href="#carouselExampleIndicators"
+					role="button"
+					data-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+				<a
+					class="carousel-control-next"
+					href="#carouselExampleIndicators"
+					role="button"
+					data-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+			</div>
+		</section>
+
+		<section class="hn">
+			<div class="container">
+				<div class="row numbers">
+					<div class="helpline">
+						<p class="p1">HELPLINE</p>
+						<p class="p1">|</p>
+					</div>
+					<div class="number">
+						<p class="p2">Number</p>
+						<p class="p3">91-11-23978046</p>
+					</div>
+					<div class="number">
+						<p class="p2">Health Ministry</p>
+						<p class="p3">1075</p>
+					</div>
+					<div class="number">
+						<p class="p2">Child</p>
+						<p class="p3">1098</p>
+					</div>
+					<div class="number">
+						<p class="p2">Mental Health</p>
+						<p class="p3">08046110007</p>
+					</div>
+					<div class="number">
+						<p class="p2">Senior Citizens</p>
+						<p class="p3">14567</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="text-center my-5">
+				Check Your Nearest Vaccination Center And Slots Availability
+			</h2>
+			<div class="date text-center">
+				<input type="Pin" class="pin" placeholder="Enter Your Pin" />
+				<button class="sub">Search</button>
+			</div>
+		</section>
+		<section>
+			<h2 class="text-center my-5">How To Get Your Vaccination</h2>
+			<div class="container">
+				<div class="row">
+					<div class="card col-lg-4 col-md-6 h-100">
+						<div class="text-center">
+							<img
+								class="card-img-top"
+								src="img/vaccination-thumb-1.jpg"
+								alt="Card image cap"
+							/>
+						</div>
+						<div class="card-body text-center">
+							<p class="card-text text-center">
+								Book An Appointment On CoWIN or Walk into Any Vaccination Center
+							</p>
+							<a href="">HOW TO BOOK YOUR APPOINTMENT ON COWIN</a>
+						</div>
+					</div>
+					<div class="card col-lg-4 col-md-6 h-100">
+						<div class="text-center">
+							<img
+								class="card-img-top"
+								src="img/vaccination-thumb-2.jpg"
+								alt="Card image cap"
+							/>
+						</div>
+						<div class="card-body text-center">
+							<p class="card-text text-center">
+								Get Your Vaccination Safely at the Time of Tour Appointment
+							</p>
+							<a href="">DOS AND DONTS FOR GETTING VACCINATED</a>
+						</div>
+					</div>
+					<div class="card col-lg-4 col-md-12 h-100">
+						<div class="text-center">
+							<img
+								class="card-img-top"
+								src="img/vaccination-thumb-3.jpg"
+								alt="Card image cap"
+							/>
+						</div>
+						<div class="card-body text-center">
+							<p class="card-text text-center">
+								Download Your Vaccination Certificate from CoWIN and Wait for
+								Dose #2
+							</p>
+							<a href="">DOWNLOAD YOUR VACCINE CERTIFICATE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2 class="text-center my-5">How To Get Your Vaccination</h2>
+
+			<div class="container">
+				<div class="row">
+					<div class="issues col-lg-6 col-md-12">
+						<h5>Raise An Issue</h5>
+						<div class="issue1">
+							<button>
+								<p>Get Your Certificate Corrected</p>
+								<p>&#x279C;</p>
+							</button>
+						</div>
+						<div class="issue1">
+							<button>
+								<p>Add Passport Details In Vaccination Caertificate</p>
+								<p>&#x279C;</p>
+							</button>
+						</div>
+						<div class="issue1">
+							<button>
+								<p>Vaccine Certificate Not Reveived</p>
+								<p>&#x279C;</p>
+							</button>
+						</div>
+						<div class="issue1">
+							<button>
+								<p>Merge Multiple Dose#1 Certificates</p>
+								<p>&#x279C;</p>
+							</button>
+						</div>
+					</div>
+
+					<div class="contact col-lg-6 col-md-12">
+						<h5>Contact Us</h5>
+						<hr />
+
+						<div class="helpl">
+							<p>Helpline</p>
+							<p class="num">+91 11 23978046 (Toll Free- 1075)</p>
+						</div>
+						<div class="th">
+							<p>Technical Helpline</p>
+							<p class="num">0120 4473222</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="freq">
+			<h2 class="text-center my-5">Frequently Asked Questions</h2>
+			<div class="container">
+				<table>
+					<tr>
+						<th class="heading-1">Top Question</th>
+					</tr>
+					<tr>
+						<td>Is online registration mandatory for Covid 19 vaccination?</td>
+					</tr>
+					<tr>
+						<td>
+							How many people can be registered in the CoWIN portal through one
+							mobile number?
+						</td>
+					</tr>
+					<tr>
+						<td>Can I register for vaccination without Aadhaar card?</td>
+					</tr>
+					<tr>
+						<td>Is there any registration charges to be paid?</td>
+					</tr>
+					<tr>
+						<td>
+							Can I check the vaccine being administered at each vaccination
+							centre?
+						</td>
+					</tr>
+					<tr>
+						<td>
+							The appointment can be rescheduled at any time. In case you are
+							not able to go for vaccination on the date of appointment, you can
+							reschedule the appointment by clicking on “Reschedule” tab.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Where will I receive confirmation of date and time of vaccination?
+						</td>
+					</tr>
+					<tr>
+						<td>
+							When I click on vaccination centre it shows 'No appointments are
+							available in this period'. What to do?
+						</td>
+					</tr>
+				</table>
+				<button class="faq">READ ALL F.A.Q.</button>
+			</div>
+		</section>
+
+		<!-- <section class="last">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<ul class="first">
+							<li class="head">Vaccincation</li>
+							<li>Register Members</li>
+							<li>Search Vaccincation Centers</li>
+							<li>Book Vaccination Slots</li>
+							<li>Manage Appointment</li>
+							<li>Download Certificaate</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<ul>
+							<li class="head">Platforms</li>
+							<li>CoWIN International</li>
+							<li>Vaccinator</li>
+							<li>Department Login</li>
+							<li>Verify Certificates</li>
+							<li>Vaccination Statistics</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<ul>
+							<li class="head">Resources</li>
+							<li>How to Get Vaccinated</li>
+							<li>Dos and Don'ts</li>
+							<li>Overview</li>
+							<li>API Guidlines</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<ul>
+							<li class="head">Support</li>
+							<li>F.A.Q.</li>
+							<li>Certificate Corrections</li>
+							<li>Contact Us</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section> -->
+	</body>
+</html>
